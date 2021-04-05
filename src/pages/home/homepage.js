@@ -3,6 +3,8 @@ import { Route, Switch, BrowserRouter, Link } from "react-router-dom";
 import ReactDOM from 'react-dom'
 import axios from 'axios'
 
+import ApiClient from '../../api-client'
+
 
 function HomePage(){
     const [pageNumber, setPageNumber] = useState(0)
@@ -10,10 +12,7 @@ function HomePage(){
     const [products, setProducts] = useState([])
     
     useEffect(()=> {
-        axios.get("http://localhost:8000/api/products/")
-        .then(data => {
-            return data.data
-        })
+        ApiClient.getAllProducts()
         .then(res =>{
             setProducts(res.products_list)
             setPageNumber(res.page_number)
@@ -21,8 +20,7 @@ function HomePage(){
         })
         .then( a=>{
             console.log(products)
-        }
-        )
+        })
     },[]);
 
 
@@ -31,7 +29,7 @@ function HomePage(){
         <h1>Show all products here</h1>
         <br/>
         {products.map((product) => (
-          <Link to={"products/" + product.product_id}>
+          <Link key={product.product_id} to={"products/" + product.product_id}>
             {product.product_name}
             <br />
           </Link>

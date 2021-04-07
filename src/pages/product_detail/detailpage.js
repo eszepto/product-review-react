@@ -31,8 +31,7 @@ function DetailPage(props){
 
     return (
     <div>
-            
-        <h2>Detail of </h2><h1>{productName}</h1>
+  
         <p>page {pageNumber} of {numPages}</p>
         {reviews.map((review)=>(
             <ReviewComponent key={review.review_id} review={review}></ReviewComponent>

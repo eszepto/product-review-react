@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/product-review-react/static/css/main.375b57f6.chunk.css",
+    "main.js": "/product-review-react/static/js/main.9ac8761f.chunk.js",
+    "main.js.map": "/product-review-react/static/js/main.9ac8761f.chunk.js.map",
+    "runtime-main.js": "/product-review-react/static/js/runtime-main.0d4d1c3a.js",
+    "runtime-main.js.map": "/product-review-react/static/js/runtime-main.0d4d1c3a.js.map",
+    "static/js/2.ad54c658.chunk.js": "/product-review-react/static/js/2.ad54c658.chunk.js",
+    "static/js/2.ad54c658.chunk.js.map": "/product-review-react/static/js/2.ad54c658.chunk.js.map",
+    "static/js/3.e7e3b9eb.chunk.js": "/product-review-react/static/js/3.e7e3b9eb.chunk.js",
+    "static/js/3.e7e3b9eb.chunk.js.map": "/product-review-react/static/js/3.e7e3b9eb.chunk.js.map",
+    "index.html": "/product-review-react/index.html",
+    "static/css/main.375b57f6.chunk.css.map": "/product-review-react/static/css/main.375b57f6.chunk.css.map",
+    "static/js/2.ad54c658.chunk.js.LICENSE.txt": "/product-review-react/static/js/2.ad54c658.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/product-review-react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d4d1c3a.js",
+    "static/js/2.ad54c658.chunk.js",
+    "static/css/main.375b57f6.chunk.css",
+    "static/js/main.9ac8761f.chunk.js"
+  ]
+}
